@@ -11,12 +11,15 @@ Put input folder in the root folder and simply run:
     Classification.py  
 
 ## Requirements
-  pip install -r pip-requirements.txt
-  
-## Datasets
+    pip install -r pip-requirements.txt
+
 
 ## Results
-  
+![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/red.PNG)
+![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/green.PNG)
+![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/blue.PNG)
+![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/other.PNG)
+
 ## Limitation
 i. There is a resize operation in preprocessing step, to increase the calculation speed, the resized image is 10*10. It is a relatively small size since do not care about the features in image, Only RGB is important. Some of R,G,B may be classify to other. the thershold is 0.5.  
 ii. Looking into the equation:  
