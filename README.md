@@ -6,16 +6,13 @@ Classify images by dominant color in one of the following groups: 1. Red 2. Gree
 ## Equation
 x=x/(total-grey) where x stand for no. of R,G,B pixel in image, total is size of image and grey for no of scale colors.  
 
+## Requirements
+    pip install -r pip-requirements.txt
+    
 ## Usage
     Put input folder in the root folder and simply run:  
     python Classification.py
     
-    
-
-## Requirements
-    pip install -r pip-requirements.txt
-
-
 ## Results
 ![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/red.PNG)
 ![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/green.PNG)
@@ -23,7 +20,9 @@ x=x/(total-grey) where x stand for no. of R,G,B pixel in image, total is size of
 ![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/other.PNG)
 
 ## Limitation
-i. There is a resize operation in preprocessing step, to increase the calculation speed, the resized image is 10*10. It is a relatively small size since do not care about the features in image, Only RGB is important. Some of R,G,B may be classify to other. the thershold is 0.5.  
+i. There is a resize operation in preprocessing step, the resized image is 10*10.
+since we do not care about the features in image, Only RGB is important. 
+Some of R,G,B maybe classify to "other" due to compress pixels reasons.  
 ii. Looking into the equation:  
 x=x/(total-grey)  
 There is a situation that image only contain grey scale color.  
