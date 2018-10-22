@@ -8,7 +8,7 @@ x=x/(total-grey) where x stand for no. of R,G,B pixel in image, total is size of
 
 ## Usage
 Put input folder in the root folder and simply run:  
-    Classification.py  
+    python Classification.py
 
 ## Requirements
     pip install -r pip-requirements.txt
