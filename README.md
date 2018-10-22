@@ -7,8 +7,10 @@ Classify images by dominant color in one of the following groups: 1. Red 2. Gree
 x=x/(total-grey) where x stand for no. of R,G,B pixel in image, total is size of image and grey for no of scale colors.  
 
 ## Usage
-Put input folder in the root folder and simply run:  
+    Put input folder in the root folder and simply run:  
     python Classification.py
+    
+    
 
 ## Requirements
     pip install -r pip-requirements.txt
