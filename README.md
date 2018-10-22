@@ -10,7 +10,8 @@ x=x/(total-grey) where x stand for no. of R,G,B pixel in image, total is size of
     pip install -r pip-requirements.txt
     
 ## Usage
-    Put input folder in the root folder and simply run:  
+Put input folder in the root folder and simply run:
+ 
     python Classification.py
     
 ## Results
